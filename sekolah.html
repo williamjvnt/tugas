@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sekolah</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+          font-family: sans-serif;
+
+        .blob-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .blob {
+            width: 500px;
+            height: 500px;
+            background-color: #d1f7c4; /* Warna blob */
+            border-radius: 50% 40% 60% 30% / 30% 60% 40% 50%;
+           
+            z-index: -1;
+            top: 10px;
+            left: -2rem;
+        }
+
+        .blob img {
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            object-fit: cover;
+        }
+
+        .content {
+            max-width: 600px;
+            z-index: 1;
+            
+        }
+        
+        }
+      </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg" style="background-color: #16423C;">
@@ -42,7 +80,24 @@
         </div>
     </nav>
     <br>
-    <h3 class="text-center">Sekolah Kota Bogor</h3>
+    <section class="blob-container" style="height: 30rem; padding-top: 10rem">
+        <!-- Blob dengan gambar -->
+        <div class="blob">
+            <img src="assets/images/bocil.jpg" alt="Gambar terkait pendidikan">
+        </div>
+    
+        <!-- Teks pentingnya sekolah -->
+        <div class="content" style="padding-left: 2rem;">
+            <h2 style="font-size: 2.5rem; font-weight: bold;">Pentingnya Sekolah Untuk Masa Depan Anak</h2>
+            <p style="font-size: 1.2rem;">Sekolah adalah fondasi utama untuk membangun masa depan yang lebih baik. 
+                Di sekolah, seseorang tidak hanya belajar membaca dan menulis, tetapi juga memahami berbagai ilmu pengetahuan yang membuka wawasan dan mengasah keterampilan berpikir kritis. 
+                Sekolah juga menanamkan nilai-nilai seperti kedisiplinan, tanggung jawab, dan kerja sama, yang sangat penting untuk kehidupan di masyarakat. 
+                Selain itu, sekolah membantu membentuk karakter dan mempersiapkan siswa untuk menghadapi tantangan di dunia kerja dan kehidupan nyata. 
+                Melalui pendidikan yang didapat di sekolah, seseorang memiliki kesempatan lebih besar untuk mencapai cita-cita dan berkontribusi secara positif bagi lingkungan dan bangsa.</p>
+        </div>
+    </section>
+    
+    <h3 class="text-center" style="padding-top: 16rem; font-weight: bold;">Sekolah Kota Bogor</h3>
     <br>
     <section style="display: flex; align-items: center; justify-content: space-between; align-self: center ;text-align: left; width: 1000px; margin: 0 auto;">
         
@@ -63,7 +118,7 @@
             </div>
         </div>
         <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)">
-            <img src="assets/images/bocil.jpg" class="card-img-top" alt="...S7Sx8">
+            <img src="assets/images/school (1).jpg" class="card-img-top" alt="...S7Sx8">
             <div class="card-body">
               <h5 class="card-title">SMAN 3 Bogor</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
@@ -74,7 +129,7 @@
     <br>
     <section style="display: flex; align-items: center; justify-content: space-between; align-self: center ;text-align: left; width: 1000px; margin: 0 auto;">
         <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)">
-            <img src="assets/images/sekolahjg.jpg" class="card-img-top" alt="...S7Sx8">
+            <img src="assets/images/school (2).jpg" class="card-img-top" alt="...S7Sx8">
             <div class="card-body">
               <h5 class="card-title">SMAN 10 Bogor</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
@@ -82,7 +137,7 @@
             </div>
         </div>
         <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)">
-            <img src="assets/images/sekolah.jpg" class="card-img-top" alt="...S7Sx8">
+            <img src="assets/images/school (3).jpg" class="card-img-top" alt="...S7Sx8">
             <div class="card-body">
               <h5 class="card-title">SMAN 1 Bogor</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
@@ -90,7 +145,7 @@
             </div>
         </div>
         <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)">
-            <img src="assets/images/bocil.jpg" class="card-img-top" alt="...S7Sx8">
+            <img src="assets/images/school (9).jpg" class="card-img-top" alt="...S7Sx8">
             <div class="card-body">
               <h5 class="card-title">SMAN 3 Bogor</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
@@ -101,7 +156,7 @@
     <br>
     <section style="display: flex; align-items: center; justify-content: space-between; align-self: center ;text-align: left; width: 1000px; margin: 0 auto;">
         <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)">
-            <img src="assets/images/sekolahjg.jpg" class="card-img-top" alt="...S7Sx8">
+            <img src="assets/images/school (5).jpg" class="card-img-top" alt="...S7Sx8">
             <div class="card-body">
               <h5 class="card-title">SMAN 10 Bogor</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
@@ -109,7 +164,7 @@
             </div>
         </div>
         <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)">
-            <img src="assets/images/sekolah.jpg" class="card-img-top" alt="...S7Sx8">
+            <img src="assets/images/school (4).jpg" class="card-img-top" alt="...S7Sx8">
             <div class="card-body">
               <h5 class="card-title">SMAN 1 Bogor</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
@@ -117,7 +172,7 @@
             </div>
         </div>
         <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)">
-            <img src="assets/images/bocil.jpg" class="card-img-top" alt="...S7Sx8">
+            <img src="assets/images/school (6).jpg" class="card-img-top" alt="...S7Sx8">
             <div class="card-body">
               <h5 class="card-title">SMAN 3 Bogor</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
